@@ -1,0 +1,27 @@
+[debug] [2019-08-25T10:01:52.892Z] ----------------------------------------------------------------------
+[debug] [2019-08-25T10:01:52.897Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jobayer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-08-25T10:01:52.897Z] CLI Version:   7.2.4
+[debug] [2019-08-25T10:01:52.897Z] Platform:      win32
+[debug] [2019-08-25T10:01:52.897Z] Node Version:  v10.16.1
+[debug] [2019-08-25T10:01:52.899Z] Time:          Sun Aug 25 2019 16:01:52 GMT+0600 (Bangladesh Standard Time)
+[debug] [2019-08-25T10:01:52.899Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-25T10:01:53.121Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-25T10:01:53.124Z] > authorizing via signed-in user
+[debug] [2019-08-25T10:01:53.125Z] [iam] checking project socialape-37555 for permissions ["firebase.projects.get"]
+[debug] [2019-08-25T10:01:53.133Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socialape-37555:testIamPermissions  
+
+[debug] [2019-08-25T10:01:54.790Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-25T10:01:54.797Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/socialape-37555  
+ 
+[debug] [2019-08-25T10:01:55.349Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\ReactProject'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "D:\ReactProject\functions" for Cloud Functions...
+[debug] [2019-08-25T10:01:56.819Z] [runtime-status] Functions runtime initialized. {"cwd":"D:\\ReactProject\\functions","node_version":"10.16.1"}
+[debug] [2019-08-25T10:01:56.820Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
